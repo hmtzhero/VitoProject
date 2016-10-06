@@ -3,7 +3,7 @@ $(document).ready(function(){
 	// $('.carousel').carousel({full_width: true});
 	$('.carousel').carousel();
 	// window.setInterval(function(){$('.carousel').carousel('next')},3000);
-	$('.slider').slider({full_width: true});
+	$('.slider').slider({full_width: true, height:600});
 
 	$("ul.side-nav > li").on('click',function(){
 		var li = $(this).attr('class');

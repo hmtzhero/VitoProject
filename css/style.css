@@ -6,7 +6,7 @@
 	height: 5px;
 }*/
 header,nav{
-	height: 100px;
+	height: 90px;
 }
 
 header, main, footer {
@@ -99,3 +99,7 @@ nav ul a {
 nav .button-collapse i{
 	color: #000;
 }
+/*.brand-logo img {
+    vertical-align: middle;
+    display: inline-block;
+}*/
