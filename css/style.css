@@ -1,0 +1,101 @@
+/*.carousel.carousel-slider {
+    height: 500px;
+}
+*/
+/*.fix{
+	height: 5px;
+}*/
+header,nav{
+	height: 100px;
+}
+
+header, main, footer {
+	/*padding-left: 300px;*/
+}
+
+.global-nav{
+	float: right;
+    margin-bottom: 0.875em;
+    width: 100%;
+    font-size: 0.75em;
+}
+
+.slider ul.indicators {
+    z-index: 3;
+    bottom: 45px;
+}
+
+.slider .slides li img {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.slides{
+	height: 100%;
+	width: 100%;
+}
+
+@media only screen and (max-width : 992px) {
+	header, main, footer {
+		padding-left: 0;
+	}
+	header,nav{
+		height: 100px;
+	}
+
+}
+
+body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+main {
+	flex: 1 0 auto;
+}
+
+.carousel{
+	height:250px;
+}
+#map{
+	position: fixed;
+}
+.fixed-action-btn{
+	z-index: 1001;
+}
+#idiomas{
+	position:fixed;
+	right:inherit;
+	bottom:23px;
+	left: 23px;
+	z-index: 1000;
+
+}
+.fb-comments{
+	z-index: 1000;
+}
+
+
+/*li.active > a{
+	background-color: #00796b;
+	
+}*/
+.side-nav.fixed > li.active a{
+	color: #fff;
+}
+#nav-movile li{
+	padding-left: 30px;
+	padding-right: 30px;
+	font-weight: bold;
+	color: #000;
+}
+
+nav ul a {
+	color: #000;
+}
+nav .button-collapse i{
+	color: #000;
+}
