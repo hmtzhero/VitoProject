@@ -4,6 +4,7 @@ $(document).ready(function(){
 	$('.carousel').carousel();
 	// window.setInterval(function(){$('.carousel').carousel('next')},3000);
 	$('.slider').slider({full_width: true, height:600});
+	$('.scrollspy').scrollSpy();
 
 	$("ul.side-nav > li").on('click',function(){
 		var li = $(this).attr('class');

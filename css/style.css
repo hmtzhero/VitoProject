@@ -79,13 +79,22 @@ main {
 }
 
 
-/*li.active > a{
-	background-color: #00796b;
+li.active > a{
+	background-color: #ffcdd2 /*#00796b*/;
 	
-}*/
-.side-nav.fixed > li.active a{
-	color: #fff;
 }
+
+
+nav ul li.active{
+	background-color: #ffcdd2;
+	border-left: 2px solid #ea4a4f;
+	border-bottom: 2px solid #ea4a4f;
+}
+/*.side-nav.fixed > li.active a{
+	color: #fff;
+	background-color: #ffcdd2 ;
+	border-left: 2px solid #ea4a4f;
+}*/
 #nav-movile li{
 	padding-left: 30px;
 	padding-right: 30px;
