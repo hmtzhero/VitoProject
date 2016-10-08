@@ -5,8 +5,9 @@
 /*.fix{
 	height: 5px;
 }*/
-header,nav{
+nav{
 	height: 90px;
+	margin-bottom: 15px;
 }
 
 header, main, footer {
